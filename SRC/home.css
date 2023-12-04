@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: rgb(74, 128, 210);
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size:20px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 10px;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-gap: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    margin-right: 10px;
+}
+
+.search-bar button {
+    flex-shrink: 0;
+}
